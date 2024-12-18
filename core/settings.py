@@ -40,8 +40,9 @@ INSTALLED_APPS = [
 ]
 
 ADDITIONAL_APPS = [
-    'rest_framework',
     'rest_framework_simplejwt',
+    'rest_framework',
+    'drf_yasg',
 ]
 
 CUSTOM_APPS = [
